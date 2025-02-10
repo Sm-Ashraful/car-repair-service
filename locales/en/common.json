@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "HOME": "HOME",
+    "HOWITWORK": "HOW IT WORKS",
+    "SERVICES": "SERVICES",
+    "BRANDS": "BRANDS"
+  },
+  "home": {
+    "heroSection": {
+      "title": "Dubai's Mobile Car Experts",
+      "titleBold": "Quality Repairs at Your Doorstep",
+      "description": "Experience the convenience of our mobile car repair service by scheduling a package. Enjoy professional car care on your schedule, right at your doorstep"
+    },
+    "value": {
+      "v1": "Car Service at your doorstep",
+      "v2": "Up to 50% cheaper than agencies",
+      "v3": "Vetted & qualified mechanics",
+      "v4": "1 year parts & labour warranty"
+    },
+    "service": {
+      "title": "Our Services",
+      "subTitle": "Key Services"
+    }
+  },
+  "input": {
+    "name": "Enter your name",
+    "phone": "Enter your contact number"
+  },
+  "button": {
+    "bookNow": "Book Now"
+  }
+}
