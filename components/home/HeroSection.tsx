@@ -30,7 +30,7 @@ export default function HeroSection() {
     );
 
     return (
-        <div className={`grid grid-cols-2 gap-[4.5625rem] pt-[2.5rem]`}>
+        <div className={`grid grid-cols-2 gap-[4.5625rem] pt-[2.5rem] container`}>
             <div className="text-secondary max-w-[567px]">{content}</div>
             <div className="">
                 <Image src={CartPng} alt="hero-image" width={600} height={336} />

@@ -78,3 +78,10 @@ body {
 .direction-rtl {
   direction: rtl;
 }
+
+.container {
+  width: 90rem;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
+  margin: 0 auto;
+}

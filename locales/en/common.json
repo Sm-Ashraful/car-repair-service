@@ -19,7 +19,15 @@
     },
     "service": {
       "title": "Our Services",
-      "subTitle": "Key Services"
+      "subTitle": "Key Services",
+      "services": [
+        "Brake Repair and Maintenance",
+        "Chassis Repair",
+        "Electrical System Servicing",
+        "Engine Diagnostics and Repair",
+        "Transmission Services",
+        "Vehicle Inspection"
+      ]
     }
   },
   "input": {

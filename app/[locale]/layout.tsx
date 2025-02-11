@@ -1,18 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import i18nConfig from "@/i18nConfig";
 import { dir } from "i18next";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const poppins = Poppins({
   variable: "--font-poppins",
