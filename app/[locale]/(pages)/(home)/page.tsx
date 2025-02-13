@@ -3,6 +3,7 @@ import HeroSection from "@/components/home/HeroSection";
 import BookNow from "@/components/home/BookNow";
 import Value from "@/components/home/Value";
 import Services from "@/components/home/Services";
+import Package from "@/components/home/Package";
 
 export default function HomePage() {
     return (
@@ -12,6 +13,7 @@ export default function HomePage() {
                 <BookNow />
                 <Value />
                 <Services />
+                <Package />
             </div>
         </div>
     );

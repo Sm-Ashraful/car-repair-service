@@ -18,7 +18,10 @@
       "v4": "1 year parts & labour warranty"
     },
     "service": {
-      "title": "Our Services",
+      "title": {
+        "first": "Our",
+        "second": "Services"
+      },
       "subTitle": "Key Services",
       "services": [
         "Brake Repair and Maintenance",
@@ -28,6 +31,33 @@
         "Transmission Services",
         "Vehicle Inspection"
       ]
+    },
+    "package": {
+      "title": {
+        "first": "Pick A",
+        "second": "Package"
+      },
+      "subTitle": "Parts that are not included can be requested, with an additional cost, upon booking the service",
+      "packages": [
+        "5W30 Oil",
+        "Oil Filter",
+        "A/C Filter Cleaning",
+        "Air Filter Cleaning",
+        "Air Filter Replacement (Labour)",
+        "AC Filter Replacement (Labour)",
+        "Air Filter Inspection",
+        "Engine Coolant Top-up",
+        "Battery Inspection",
+        "Tyre pressure inspection & top-up",
+        "Windscreen washer fluid top-up",
+        "Steering fluid level top-up"
+      ],
+      "servicePackages": {
+        "title": "Mobile Service",
+        "offerTitle": "NOW 200 AED OFF",
+        "price": "399"
+      },
+      "button": "Show More"
     }
   },
   "input": {

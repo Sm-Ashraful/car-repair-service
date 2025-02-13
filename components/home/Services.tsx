@@ -40,10 +40,10 @@ export default function Services() {
                         </svg>
                         {t('home.service.subTitle')}
                     </p>
-                    <h2 className="text-[48px] leading-[72px] font-bold text-primary mb-2">
-                        {t('home.service.title')}
+                    <h2 className="text-[48px] leading-[72px] text-primary mb-2">
+                        <span className="font-normal">{t('home.service.title.first')}</span>{" "}
+                        <span className="font-bold">{t('home.service.title.second')}</span>
                     </h2>
-
                 </div>
 
                 <div className="grid grid-cols-3 gap-8">
@@ -67,7 +67,7 @@ export default function Services() {
                                 </h3>
                             </div>
                             {/* Add vertical line after first and second card */}
-                            {index < 2 && (
+                            {index < 5 && index != 2 && (
                                 <div className="absolute right-0 top-5 w-[1px] h-full bg-[#D9D9D9]" />
                             )}
                         </div>
