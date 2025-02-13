@@ -32,7 +32,7 @@ export default async function initializeTranslations(
     ns: namespaces,
     preload: resources ? [] : i18nConfig.locales,
   });
-
+  console.log("I :", i18nConfig);
   return {
     i18n: i18nInstance,
     resources: i18nInstance.services.resourceStore.data,
