@@ -4,6 +4,7 @@ import BookNow from "@/components/home/BookNow";
 import Value from "@/components/home/Value";
 import Services from "@/components/home/Services";
 import Package from "@/components/home/Package";
+import HealthCheck from "@/components/home/HealthCheck";
 
 export default function HomePage() {
     return (
@@ -14,6 +15,7 @@ export default function HomePage() {
                 <Value />
                 <Services />
                 <Package />
+                <HealthCheck />
             </div>
         </div>
     );

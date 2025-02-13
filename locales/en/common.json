@@ -58,6 +58,26 @@
         "price": "399"
       },
       "button": "Show More"
+    },
+    "healthCheck": {
+      "title": {
+        "first": "10-POINT",
+        "second": "HEALTH CHECK"
+      },
+      "subTitle": "Complimentary with every mobile oil change",
+      "points": [
+        "Lights inspection",
+        "Brakes inspection",
+        "Lights inspection",
+        "Brakes inspection",
+        "Lights inspection",
+        "Brakes inspection",
+        "Lights inspection",
+        "Brakes inspection",
+
+        "Lights inspection",
+        "Brakes inspection"
+      ]
     }
   },
   "input": {
