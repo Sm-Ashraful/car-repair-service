@@ -6,7 +6,7 @@ const i18nNamespaces = ["common"];
 
 async function PagesLayout({ children, params }: { children: ReactNode, params: Promise<{ locale: string }> }) {
     const { locale } = await params;
-    const { t, resources } = await initializeTranslations(locale, i18nNamespaces);
+    const { resources } = await initializeTranslations(locale, i18nNamespaces);
 
     return (
         <TranslationsProvider
