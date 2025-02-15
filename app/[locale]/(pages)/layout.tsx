@@ -1,4 +1,4 @@
-import TranslationsProvider from "@/components/TranslationsProvider";
+import TranslationsProvider from "@/components/providers/TranslationsProvider";
 import initializeTranslations from "@/app/i18n";
 import { ReactNode } from "react";
 

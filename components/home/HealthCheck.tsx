@@ -11,22 +11,35 @@ const CheckIcon = () => (
 const HealthCheck = () => {
     const { t } = useTranslation("common");
     const points = t('home.healthCheck.points', { returnObjects: true }) as string[];
+    const leftPoints = points.slice(0, 5);
+    const rightPoints = points.slice(5);
 
     return (
         <div className="w-full py-16">
-            <div className="container">
-                <div className="text-center mb-12">
-                    <h2 className="text-[48px] leading-[72px] text-primary mb-2">
+            <div className="max-w-[56.125rem] mx-auto">
+                <div className="text-center mb-[3.125rem]">
+                    <h2 className="text-[3rem] leading-[4.5rem] text-primary mb-2">
                         <span className="font-normal">{t('home.healthCheck.title.first')}</span>{" "}
                         <span className="font-bold">{t('home.healthCheck.title.second')}</span>
                     </h2>
-                    <p className="text-black text-[20px] leading-[27px]">{t('home.healthCheck.subTitle')}</p>
+                    <p className="text-black text-lg">{t('home.healthCheck.subTitle')}</p>
                 </div>
 
-                <div className="w-full max-w-[951px] mx-auto">
-                    <div className="grid grid-cols-2 gap-x-[120px] gap-y-4">
-                        {points.map((point, index) => (
-                            <div key={index} className="flex items-center gap-3">
+                <div className="w-full max-w-[59.4375rem] mx-auto flex justify-between">
+                    {/* Left Side */}
+                    <div className="flex flex-col gap-4">
+                        {leftPoints.map((point, index) => (
+                            <div key={index} className="flex items-center gap-2.5">
+                                <CheckIcon />
+                                <span className="text-base text-primary">{point}</span>
+                            </div>
+                        ))}
+                    </div>
+
+                    {/* Right Side */}
+                    <div className="flex flex-col gap-4">
+                        {rightPoints.map((point, index) => (
+                            <div key={index} className="flex items-center gap-2.5">
                                 <CheckIcon />
                                 <span className="text-base text-primary">{point}</span>
                             </div>

@@ -5,7 +5,9 @@ import Value from "@/components/home/Value";
 import Services from "@/components/home/Services";
 import Package from "@/components/home/Package";
 import HealthCheck from "@/components/home/HealthCheck";
-
+import CarServiceCTA from "@/components/home/CarServiceCTA";
+import Steps from "@/components/home/Steps";
+import GenuinePartsBanner from "@/components/home/GenuinePartsBanner";
 export default function HomePage() {
     return (
         <div>
@@ -16,6 +18,9 @@ export default function HomePage() {
                 <Services />
                 <Package />
                 <HealthCheck />
+                <CarServiceCTA />
+                <Steps />
+                <GenuinePartsBanner />
             </div>
         </div>
     );
