@@ -24,7 +24,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">{t('footer.usefulLinks.title')}</h3>
                         <ul className="grid grid-cols-2 gap-2 text-sm">
-                            {t('footer.usefulLinks.services', { returnObjects: true }).map(
+                            {(t('footer.usefulLinks.services', { returnObjects: true }) as string[]).map(
                                 (item: string, index: number) => (
                                     <li key={index} className="hover:text-gray-300 transition">
                                         <Link href="#">{item}</Link>
@@ -50,7 +50,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">{t('footer.usefulLinks.title')}</h3>
                         <ul className="text-sm space-y-2">
-                            {t('footer.usefulLinks.navigation', { returnObjects: true }).map(
+                            {(t('footer.usefulLinks.navigation', { returnObjects: true }) as string[]).map(
                                 (item: string, index: number) => (
                                     <li key={index} className="hover:text-gray-300 transition">
                                         <Link href="#">{item}</Link>

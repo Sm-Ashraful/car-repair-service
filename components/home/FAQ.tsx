@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import TopCornerArrow from "@/public/images/TopCornerArrow.svg";
 import { useTranslation } from "react-i18next";
-import { cn } from "@/lib/utils";
+
 import { motion } from "framer-motion";
 import faqImage from "@/public/images/servies/fagImage.png";
 const MobileMechanicFAQ = () => {

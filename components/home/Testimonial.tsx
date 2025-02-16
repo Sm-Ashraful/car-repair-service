@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight, Quote, StarIcon } from 'lucide-react';
+import { ChevronLeft, ChevronRight, StarIcon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 interface Testimonial {
