@@ -3,7 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import i18nConfig from "@/i18nConfig";
 import { dir } from "i18next";
-import Footer from "@/components/footer/footer";
+// import Footer from "@/components/footer/footer";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -28,7 +28,7 @@ export default async function RootLayout({ children, params }: { children: React
         className={`${poppins.variable} antialiased`}
       >
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
