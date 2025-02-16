@@ -8,6 +8,8 @@ import HealthCheck from "@/components/home/HealthCheck";
 import CarServiceCTA from "@/components/home/CarServiceCTA";
 import Steps from "@/components/home/Steps";
 import GenuinePartsBanner from "@/components/home/GenuinePartsBanner";
+import MobileMechanicFAQ from "@/components/home/FAQ";
+import Testimonial from "@/components/home/Testimonial";
 export default function HomePage() {
     return (
         <div>
@@ -21,6 +23,8 @@ export default function HomePage() {
                 <CarServiceCTA />
                 <Steps />
                 <GenuinePartsBanner />
+                <MobileMechanicFAQ />
+                <Testimonial />
             </div>
         </div>
     );

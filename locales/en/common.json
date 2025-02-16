@@ -105,6 +105,102 @@
           "description": "Congrats! You've successfully gotten your car fixed at your doorstep."
         }
       ]
+    },
+    "faq": {
+      "title": {
+        "first": "STILL SEARCHING FOR A",
+        "second": "MOBILE CAR MECHANIC IN DUBAI?"
+      },
+      "items": [
+        {
+          "question": "Why go for a mobile oil change?",
+          "answer": "Sometimes, a mobile oil change is all you need to get your car back in shape for the road. Book a mobile oil change at Service My Car and get the best mobile car mechanic Dubai has to offer."
+        },
+        {
+          "question": "Booking a mobile oil change",
+          "answer": "Sometimes, a mobile oil change is all you need to get your car back in shape for the road. Book a mobile oil change at Service My Car and get the best mobile car mechanic Dubai has to offer."
+        },
+        {
+          "question": "Why choose Service My Car?",
+          "answer": "Sometimes, a mobile oil change is all you need to get your car back in shape for the road. Book a mobile oil change at Service My Car and get the best mobile car mechanic Dubai has to offer."
+        },
+        {
+          "question": "Why choose Service My Car?",
+          "answer": "Sometimes, a mobile oil change is all you need to get your car back in shape for the road. Book a mobile oil change at Service My Car and get the best mobile car mechanic Dubai has to offer."
+        },
+        {
+          "question": "Why choose Service My Car?",
+          "answer": "Sometimes, a mobile oil change is all you need to get your car back in shape for the road. Book a mobile oil change at Service My Car and get the best mobile car mechanic Dubai has to offer."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": {
+        "first": "CUSTOMERS LOVE THE",
+        "second": "SERVICE MY CAR EXPERIENCE"
+      },
+      "items": [
+        {
+          "id": 1,
+          "name": "Victor S.",
+          "car": "Porsche Panamera 2019",
+          "location": "Abu Dhabi",
+          "review": "My car was due for a major service and through web placed promotions, I found Service My Car...",
+          "date": "15 January 2024",
+          "rating": 5,
+          "text": "My car was due for a major service and through web placed promotions, I found Service My Car..."
+        },
+        {
+          "id": 2,
+          "name": "Sarah M.",
+          "car": "Tesla Model S",
+          "location": "Dubai",
+          "review": "Exceptional service! The team went above and beyond to ensure my vehicle was properly maintained...",
+          "date": "12 January 2024",
+          "rating": 5,
+          "text": "Exceptional service! The team went above and beyond to ensure my vehicle was properly maintained..."
+        },
+        {
+          "id": 3,
+          "name": "James P.",
+          "car": "BMW M5",
+          "location": "Sharjah",
+          "review": "Very professional and transparent service. They kept me informed throughout the entire process...",
+          "date": "10 January 2024",
+          "rating": 5,
+          "text": "Very professional and transparent service. They kept me informed throughout the entire process..."
+        },
+        {
+          "id": 4,
+          "name": "Emma R.",
+          "car": "Mercedes-Benz C300",
+          "location": "Dubai",
+          "review": "Great experience from start to finish. The online booking system was seamless and convenient...",
+          "date": "8 January 2024",
+          "rating": 5,
+          "text": "Great experience from start to finish. The online booking system was seamless and convenient..."
+        },
+        {
+          "id": 5,
+          "name": "Michael T.",
+          "car": "Audi Q7",
+          "location": "Abu Dhabi",
+          "review": "Highly recommend their services. Fair pricing and excellent customer service...",
+          "date": "5 January 2024",
+          "rating": 5,
+          "text": "Highly recommend their services. Fair pricing and excellent customer service..."
+        },
+        {
+          "id": 6,
+          "name": "Lisa K.",
+          "car": "Range Rover Sport",
+          "location": "Dubai",
+          "review": "The attention to detail was impressive. My car runs better than ever...",
+          "date": "3 January 2024",
+          "rating": 5,
+          "text": "The attention to detail was impressive. My car runs better than ever..."
+        }
+      ]
     }
   },
   "input": {
@@ -113,5 +209,35 @@
   },
   "button": {
     "bookNow": "Book Now"
+  },
+  "footer": {
+    "brand": {
+      "first": "ZIA AL",
+      "second": "MADINA"
+    },
+    "usefulLinks": {
+      "title": "Useful Links",
+      "services": [
+        "Acura Service",
+        "Bugatti Service",
+        "Hyundai Service",
+        "Suzuki Service",
+        "Land Rover Service"
+      ],
+      "navigation": ["Home", "How It Works", "Services", "Brands", "FAQs"]
+    },
+    "businessInfo": {
+      "title": "Business Information",
+      "address": "Plot # 389 - 322 Street 21, Al Quoz Industrial Area 4, Dubai, UAE",
+      "poBox": "PO Box: 333781",
+      "businessPhone": "Business Phone: 800265464",
+      "phone": {
+        "label": "Phone:",
+        "number": "(04) 703 8999"
+      }
+    },
+    "payment": {
+      "title": "We Accept"
+    }
   }
 }
